@@ -1,0 +1,95 @@
+* {
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+table, td, th {
+    border: 1px solid #dfe5eb;
+    border-collapse: collapse;
+  }
+
+th, td{
+    padding: 18px 15px;
+    background: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.titulo {
+    font-size: 20px;
+}
+
+.subtitulo {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    color: rgb(148, 148, 148);
+ }
+
+ #ressalva {
+    display: inline-block;
+    color: rgb(197, 197, 197);
+ }
+
+.information {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='13' height='13' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M0 0h13v13H0z'/%3E%3Ccircle stroke='%237A92A5' stroke-linecap='round' stroke-linejoin='round' cx='6.5' cy='6.5' r='5.597'/%3E%3Cpath stroke='%237A92A5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' d='M6.5 4.333h.005'/%3E%3Cpath stroke='%237A92A5' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='M5.958 6.5H6.5v2.167h.542'/%3E%3C/g%3E%3C/svg%3E") 50%/contain no-repeat;
+    min-width: 15px;
+    min-height: 15px;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.descricao {
+    /* border: 1px solid red; */
+    height: 100px;
+}
+
+.divisor, .divisor2 {
+    display: inline-block;
+    justify-items: center;
+    justify-content: center;
+    background: #dfe5eb;
+    height: 2px;
+    width: 24px;
+    margin-top: 30px;
+}
+
+.divisor2 {
+    margin-top: 0px;
+}
+
+.preco {
+    display: inline-flex;
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
+
+sup {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-right: 5px;
+    font-weight: normal;
+  }
+
+.valor {
+    font-size: 36px;
+}
+
+.periodicidade {
+    font-size: 16px;
+    padding-top: 17px;
+    padding-left: 5px;
+    /* padding-bottom: 0px; */
+    font-weight: normal;
+}
+
+.certo {
+    display: flex;
+    justify-content: center;
+}
+
