@@ -2,6 +2,7 @@
     margin-top: 0px;
     box-sizing: border-box;
 }
+
 th {
     position: sticky;
     top: 0;
@@ -11,6 +12,12 @@ th {
 table, td, th {
     border: 1px solid #dfe5eb;
     border-collapse: collapse;
+    margin: auto;
+    min-width: none;
+  }
+
+  table td:nth-child(6) {
+    min-width: 210px;
   }
 
 th, td{
